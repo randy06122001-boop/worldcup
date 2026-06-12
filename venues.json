@@ -1,0 +1,114 @@
+{
+  "Dallas": {
+    "city": "Dallas", "country": "USA", "stadium": "AT&T Stadium",
+    "altitude_m": 139,
+    "heat_index": 0.90, "humidity_index": 0.70,
+    "roof": "retractable",
+    "climate": "Extreme summer heat, highs 36-38C — retractable roof likely closed"
+  },
+  "Miami": {
+    "city": "Miami", "country": "USA", "stadium": "Hard Rock Stadium",
+    "altitude_m": 2,
+    "heat_index": 0.85, "humidity_index": 0.95,
+    "roof": "partial",
+    "climate": "Tropical wet season, highs 31-32C, very high humidity, partial shade canopy"
+  },
+  "Houston": {
+    "city": "Houston", "country": "USA", "stadium": "NRG Stadium",
+    "altitude_m": 14,
+    "heat_index": 0.85, "humidity_index": 0.90,
+    "roof": "retractable",
+    "climate": "Subtropical, very hot outside — retractable roof likely closed"
+  },
+  "Atlanta": {
+    "city": "Atlanta", "country": "USA", "stadium": "Mercedes-Benz Stadium",
+    "altitude_m": 320,
+    "heat_index": 0.70, "humidity_index": 0.65,
+    "roof": "retractable",
+    "climate": "Warm outside but retractable roof with full climate control"
+  },
+  "Kansas City": {
+    "city": "Kansas City", "country": "USA", "stadium": "Arrowhead Stadium",
+    "altitude_m": 265,
+    "heat_index": 0.72, "humidity_index": 0.60,
+    "roof": "open",
+    "climate": "Warm continental, highs 30-33C, fully open air"
+  },
+  "Philadelphia": {
+    "city": "Philadelphia", "country": "USA", "stadium": "Lincoln Financial Field",
+    "altitude_m": 39,
+    "heat_index": 0.68, "humidity_index": 0.65,
+    "roof": "open",
+    "climate": "Warm and humid, highs 28-32C, open air"
+  },
+  "New York": {
+    "city": "New York / New Jersey", "country": "USA", "stadium": "MetLife Stadium",
+    "altitude_m": 3,
+    "heat_index": 0.60, "humidity_index": 0.60,
+    "roof": "open",
+    "climate": "Warm summer, highs 27-30C, open air"
+  },
+  "Boston": {
+    "city": "Boston", "country": "USA", "stadium": "Gillette Stadium",
+    "altitude_m": 14,
+    "heat_index": 0.55, "humidity_index": 0.58,
+    "roof": "open",
+    "climate": "Mild-warm, highs 25-29C, open air"
+  },
+  "Los Angeles": {
+    "city": "Los Angeles", "country": "USA", "stadium": "SoFi Stadium",
+    "altitude_m": 93,
+    "heat_index": 0.45, "humidity_index": 0.25,
+    "roof": "partial",
+    "climate": "Dry and warm, SoFi has translucent canopy roof — partially shaded"
+  },
+  "San Francisco": {
+    "city": "San Francisco Bay Area", "country": "USA", "stadium": "Levi's Stadium",
+    "altitude_m": 16,
+    "heat_index": 0.35, "humidity_index": 0.45,
+    "roof": "open",
+    "climate": "Mild and cool, highs 18-22C, very comfortable"
+  },
+  "Seattle": {
+    "city": "Seattle", "country": "USA", "stadium": "Lumen Field",
+    "altitude_m": 52,
+    "heat_index": 0.30, "humidity_index": 0.50,
+    "roof": "partial",
+    "climate": "Mild, highs 21-26C, partial roof covers stands"
+  },
+  "Mexico City": {
+    "city": "Mexico City", "country": "Mexico", "stadium": "Estadio Azteca",
+    "altitude_m": 2200,
+    "heat_index": 0.40, "humidity_index": 0.50,
+    "roof": "open",
+    "climate": "High altitude 2200m, thin air severely affects endurance, afternoon rain"
+  },
+  "Guadalajara": {
+    "city": "Guadalajara", "country": "Mexico", "stadium": "Estadio Akron",
+    "altitude_m": 1566,
+    "heat_index": 0.55, "humidity_index": 0.55,
+    "roof": "open",
+    "climate": "High altitude 1566m, moderate heat, altitude fatigue expected"
+  },
+  "Monterrey": {
+    "city": "Monterrey", "country": "Mexico", "stadium": "Estadio BBVA",
+    "altitude_m": 537,
+    "heat_index": 0.85, "humidity_index": 0.65,
+    "roof": "open",
+    "climate": "Very hot, highs 35-38C, fully open air"
+  },
+  "Toronto": {
+    "city": "Toronto", "country": "Canada", "stadium": "BMO Field",
+    "altitude_m": 76,
+    "heat_index": 0.50, "humidity_index": 0.55,
+    "roof": "open",
+    "climate": "Warm summer, highs 25-29C, open air"
+  },
+  "Vancouver": {
+    "city": "Vancouver", "country": "Canada", "stadium": "BC Place",
+    "altitude_m": 0,
+    "heat_index": 0.30, "humidity_index": 0.55,
+    "roof": "retractable",
+    "climate": "Mild and temperate — retractable roof, climate controlled"
+  }
+}
