@@ -19,13 +19,13 @@
   },
   "England": {
     "att": 84, "def": 81, "code": "ENG", "wc_exp": 85,
-    "default_tactic": "Neutral", "home_venue_country": null,
+    "default_tactic": "Gegenpressing", "home_venue_country": null,
     "altitude_comfort": 0.10, "heat_tolerance": 0.15,
     "last_10": ["W","W","D","L","W","D","W","W","L","D"]
   },
   "Spain": {
     "att": 83, "def": 83, "code": "ESP", "wc_exp": 88,
-    "default_tactic": "Neutral", "home_venue_country": null,
+    "default_tactic": "Gegenpressing", "home_venue_country": null,
     "altitude_comfort": 0.15, "heat_tolerance": 0.50,
     "last_10": ["W","W","W","W","D","W","W","W","D","W"]
   },
@@ -286,11 +286,5 @@
     "default_tactic": "Defensive", "home_venue_country": null,
     "altitude_comfort": 0.35, "heat_tolerance": 0.60,
     "last_10": ["D","L","W","D","L","W","D","L","W","D"]
-  },
-  "Venezuela": {
-    "att": 74, "def": 73, "code": "VEN", "wc_exp": 30,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.25, "heat_tolerance": 0.70,
-    "last_10": ["W","W","D","W","L","W","D","W","W","L"]
   }
 }
