@@ -1,86 +1,149 @@
-# World Cup 2026 Game Predictor
+# World Cup 2026 Game Predictor v3.0
 
 An advanced command-line (CLI) simulator and predictor for the World Cup 2026. Built in Python, it uses a Double Poisson distribution model coupled with a 10,000-run Monte Carlo simulation to forecast realistic outcomes, goals, draws, extra-time matches, and penalty shootouts.
 
-## 🚀 Key Features
+## Features
 
+### Simulation Engine
 * **Double Poisson Match Engine**: Estimates expected goals (xG) based on attack/defense ratings, tactical modifiers, and form.
-* **10,000-Run Monte Carlo Simulation**: Forecasts outcome percentages (Win/Draw/Loss) and determines the most likely scorelines.
-* **Knockout Stage Breakdown**: Provides precise odds for matches going to Extra Time (AET) and Penalty Shootouts (Pens), listing 90-minute vs. overtime probabilities.
-* **Dynamic Environment Modifiers**:
-  * **Altitude Penalty**: High altitude stadiums drain team attack composure (acclimatization scaled by team-specific altitude comfort).
-  * **Heat & Humidity Drain**: Combined heat/humidity reduces offensive output.
-  * **Roof Adjustments**: Stadium roofs (Dome: 100%, Retractable: 70%, Partial: 30%, Open: 0%) mitigate heat/humidity effects dynamically.
-  * **Home Advantage**: Country-specific crowd boost (e.g., USA playing in USA venues).
-* **Form & Trend Tracker**: Calculates a weighted moving average of the last 10 games to apply form-based buffs/debuffs (UP, DOWN, STABLE).
-* **Composure & WC Experience**: Composure buffs applied to tournament-tested teams during critical knockout stages and penalty shootouts.
-* **Fuzzy Team Search**: Search for teams with relaxed string matching (e.g., entering "eng" matches "England").
-* **Tournament Bracket Simulator**: Simulate an 8-team knockout bracket (Quarter-Finals to Grand Final) at any selected venue.
+* **10,000-Run Monte Carlo Simulation**: Forecasts outcome percentages with **95% confidence intervals** (e.g., `62.35% +/- 0.95%`).
+* **Knockout Stage Breakdown**: Precise odds for 90-minute win, Extra Time (AET), and Penalty Shootouts separately.
+* **Smooth Form Trend**: Continuous linear modifier based on weighted last-10 results (no dead zone).
+* **Sequential Penalty Shootout**: Realistic sudden death with early-exit logic matching real tournament rules.
+* **Extra Time Fatigue**: Environmental penalties (heat, altitude) are doubled during extra time.
+
+### Environmental Modifiers
+* **Altitude Penalty**: High altitude stadiums drain team attack (scaled by team-specific altitude comfort).
+* **Heat & Humidity Drain**: Combined heat/humidity reduces offensive output (scaled by team-specific heat tolerance).
+* **Roof Adjustments**: Dome (100%), Retractable (70%), Partial (30%), Open (0%) heat/humidity reduction.
+* **Home Advantage**: Country-specific crowd boost (e.g., USA at US venues).
+
+### Match Features
+* **Red Card Toggle**: Simulate the impact of a red card (-15% ATT, -10% DEF) for either team.
+* **Save/Export Reports**: Save match prediction reports as `.txt` files in the `exports/` folder.
+* **Fuzzy Team Search**: Relaxed string matching + country code support (e.g., "ENG" matches "England").
+
+### Tournament Modes
+* **Single Match**: Simulate any head-to-head matchup with full pre-match intelligence.
+* **8-Team Knockout Bracket**: Quarter-Finals through Grand Final with odds per round.
+* **Full 48-Team Tournament**: 12 groups of 4 (serpentine seeding) -> Round of 32 -> Grand Final.
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Usage
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/randy06122001-boop/worldcup.git
-   cd worldcup
-   ```
+### Setup
+```bash
+git clone https://github.com/randy06122001-boop/worldcup.git
+cd worldcup
+```
 
-2. **Verify Files**: Ensure the following files are present in the directory:
-   * `world_cup_sim.py` (Executable Python script)
-   * `teams.json` (Nations statistics database)
-   * `venues.json` (16 World Cup 2026 Host Venues)
+No dependencies beyond Python 3.7+ standard library.
 
-3. **Run the Simulator**:
-   ```bash
-   python world_cup_sim.py
-   ```
+### Interactive Mode
+```bash
+python world_cup_sim.py
+```
+
+### CLI Mode (Non-Interactive)
+```bash
+# Quick single match
+python world_cup_sim.py --match "England" "Japan" --venue "Dallas" --knockout
+
+# With red card
+python world_cup_sim.py --match "Brazil" "Germany" --venue "New York" --red-card-b
+
+# Top 8 bracket
+python world_cup_sim.py --bracket --top8
+
+# Full 48-team tournament
+python world_cup_sim.py --groups
+
+# Custom simulation count
+python world_cup_sim.py --match "USA" "Mexico" --runs 50000
+```
+
+### CLI Options
+| Flag | Description |
+|------|-------------|
+| `--match TEAM_A TEAM_B` | Simulate a single match |
+| `--venue NAME` | Set the venue (default: New York) |
+| `--knockout` | Treat as knockout match |
+| `--bracket` | Run 8-team knockout bracket |
+| `--top8` | Seed bracket with top 8 teams |
+| `--groups` | Run full 48-team group stage + knockout |
+| `--runs N` | Number of Monte Carlo simulations (default: 10000) |
+| `--red-card-a` | Red card for Team A (-15% ATT, -10% DEF) |
+| `--red-card-b` | Red card for Team B |
 
 ---
 
-## 📊 How It Works (The Engine)
+## How It Works
 
-### Expected Goals (Poisson $\lambda$)
-For any match, the expected goals ($\lambda_A$ and $\lambda_B$) for Team A and Team B are estimated as:
+### Expected Goals (Poisson Lambda)
+For any match, the expected goals for Team A and Team B are estimated as:
+
 $$\lambda_A = \text{base} \times \frac{\text{ATT}_A}{\text{AvgRating}} \times \frac{\text{AvgRating}}{\text{DEF}_B}$$
-$$\lambda_B = \text{base} \times \frac{\text{ATT}_B}{\text{AvgRating}} \times \frac{\text{AvgRating}}{\text{DEF}_A}$$
 
-Where:
-* **ATT / DEF** are modified by tactics, form trends, WC experience, and venue factors.
-* **Venue Factors** only drain **ATTACK** ratings, reflecting decreased conversion under harsh conditions (e.g., altitude or heat).
+Where **ATT** and **DEF** are modified by:
+- Tactical modifiers (Gegenpressing, Attacking, Defensive, Neutral)
+- Form trend (continuous, weighted last-10 results)
+- WC experience (knockout rounds only)
+- Venue factors (altitude, heat/humidity, roof type — attack only)
+- Red card penalties (if active)
+
+### Confidence Intervals
+Monte Carlo estimates include 95% CI: $\text{margin} = 1.96 \times \sqrt{\frac{p(1-p)}{N}}$
 
 ---
 
-## 🗃️ Database Structure
+## Data Files
 
-### `teams.json`
-Stores stats for all 49 participating teams:
+### `teams.json` (48 teams)
 ```json
 "England": {
-  "att": 87.0,
-  "def": 85.0,
-  "code": "ENG",
-  "wc_exp": 85,
+  "att": 84, "def": 81, "code": "ENG", "wc_exp": 85,
   "default_tactic": "Gegenpressing",
-  "home_venue_country": null,
-  "altitude_comfort": 0.15,
-  "heat_tolerance": 0.15,
-  "last_10": ["W", "W", "D", "W", "L", "W", "W", "D", "W", "W"]
+  "altitude_comfort": 0.10, "heat_tolerance": 0.15,
+  "last_10": ["W","W","D","L","W","D","W","W","L","D"]
 }
 ```
 
-### `venues.json`
-Stores the climate data and roof configuration of all 16 official stadiums:
+### `venues.json` (16 stadiums)
 ```json
 "Dallas": {
-  "city": "Dallas",
-  "country": "USA",
-  "stadium": "AT&T Stadium",
-  "altitude_m": 180,
-  "heat_index": 0.85,
-  "humidity_index": 0.65,
+  "city": "Dallas", "country": "USA", "stadium": "AT&T Stadium",
+  "altitude_m": 139, "heat_index": 0.90, "humidity_index": 0.70,
   "roof": "retractable",
-  "climate": "Humid subtropical, very hot summers"
+  "climate": "Extreme summer heat, retractable roof likely closed"
 }
 ```
+
+---
+
+## Changelog
+
+### v3.0
+- Full 48-team Group Stage Simulator (12 groups, serpentine seeding)
+- CLI arguments via argparse (non-interactive mode)
+- Save/export match reports to `exports/`
+- 95% confidence intervals on all probabilities
+- Red card toggle (-15% ATT, -10% DEF)
+- Extra time fatigue (doubled environmental penalties)
+- Smooth continuous trend modifier (no dead zone)
+- Sequential penalty sudden death
+- Fixed 90-min vs AET score display
+- Widened penalty conversion range (65-80%)
+- Fuzzy search now supports country codes
+- Removed Venezuela (49 -> 48 teams)
+- Updated Spain & England tactics to Gegenpressing
+- Added `.gitignore`
+
+### v2.1
+- Team-specific altitude comfort & heat tolerance
+- Indoor/retractable roof logic
+- Country-specific home boost
+- JSON validation at startup
+
+### v1.0
+- Initial release with Poisson + Monte Carlo engine
