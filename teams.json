@@ -1,290 +1,1058 @@
 {
   "Argentina": {
-    "att": 86, "def": 83, "code": "ARG", "wc_exp": 95,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.50, "heat_tolerance": 0.45,
-    "last_10": ["W","W","D","W","W","L","W","W","D","W"]
+    "att": 86,
+    "def": 83,
+    "code": "ARG",
+    "wc_exp": 95,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.5,
+    "heat_tolerance": 0.45,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "W",
+      "D",
+      "W"
+    ]
   },
   "France": {
-    "att": 87, "def": 82, "code": "FRA", "wc_exp": 92,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.25,
-    "last_10": ["W","D","W","W","L","W","D","W","W","W"]
+    "att": 87,
+    "def": 82,
+    "code": "FRA",
+    "wc_exp": 92,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.25,
+    "last_10": [
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "W",
+      "W"
+    ]
   },
   "Brazil": {
-    "att": 85, "def": 84, "code": "BRA", "wc_exp": 98,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.40, "heat_tolerance": 0.70,
-    "last_10": ["W","L","W","D","W","W","L","W","D","W"]
+    "att": 85,
+    "def": 84,
+    "code": "BRA",
+    "wc_exp": 98,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.4,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W"
+    ]
   },
   "England": {
-    "att": 84, "def": 81, "code": "ENG", "wc_exp": 85,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.15,
-    "last_10": ["W","W","D","L","W","D","W","W","L","D"]
+    "att": 84,
+    "def": 81,
+    "code": "ENG",
+    "wc_exp": 85,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.15,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "D"
+    ]
   },
   "Spain": {
-    "att": 83, "def": 83, "code": "ESP", "wc_exp": 88,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.50,
-    "last_10": ["W","W","W","W","D","W","W","W","D","W"]
+    "att": 83,
+    "def": 83,
+    "code": "ESP",
+    "wc_exp": 88,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.5,
+    "last_10": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ]
   },
   "Portugal": {
-    "att": 83, "def": 80, "code": "POR", "wc_exp": 80,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.45,
-    "last_10": ["W","W","L","W","W","W","D","L","W","W"]
+    "att": 83,
+    "def": 80,
+    "code": "POR",
+    "wc_exp": 80,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.45,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "D"
+    ]
   },
   "Germany": {
-    "att": 82, "def": 79, "code": "GER", "wc_exp": 90,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.20,
-    "last_10": ["L","W","D","W","L","D","W","W","D","L"]
+    "att": 82,
+    "def": 79,
+    "code": "GER",
+    "wc_exp": 90,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.2,
+    "last_10": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W",
+      "D",
+      "L"
+    ]
   },
   "Netherlands": {
-    "att": 81, "def": 82, "code": "NED", "wc_exp": 82,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.05, "heat_tolerance": 0.15,
-    "last_10": ["W","D","W","W","D","L","W","W","L","W"]
-  },
-  "Italy": {
-    "att": 80, "def": 81, "code": "ITA", "wc_exp": 88,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.45,
-    "last_10": ["W","L","W","D","W","D","L","W","D","W"]
+    "att": 81,
+    "def": 82,
+    "code": "NED",
+    "wc_exp": 82,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.05,
+    "heat_tolerance": 0.15,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "L",
+      "W"
+    ]
   },
   "Croatia": {
-    "att": 79, "def": 80, "code": "CRO", "wc_exp": 84,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.35,
-    "last_10": ["W","D","W","L","W","D","W","D","W","D"]
+    "att": 79,
+    "def": 80,
+    "code": "CRO",
+    "wc_exp": 84,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.35,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "D",
+      "W",
+      "D"
+    ]
   },
   "Belgium": {
-    "att": 80, "def": 77, "code": "BEL", "wc_exp": 75,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.05, "heat_tolerance": 0.20,
-    "last_10": ["D","W","L","D","W","L","W","D","L","W"]
+    "att": 80,
+    "def": 77,
+    "code": "BEL",
+    "wc_exp": 75,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.05,
+    "heat_tolerance": 0.2,
+    "last_10": [
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W"
+    ]
   },
   "Uruguay": {
-    "att": 81, "def": 80, "code": "URU", "wc_exp": 86,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.40, "heat_tolerance": 0.50,
-    "last_10": ["W","W","D","W","L","W","W","L","W","W"]
+    "att": 81,
+    "def": 80,
+    "code": "URU",
+    "wc_exp": 86,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.4,
+    "heat_tolerance": 0.5,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "W",
+      "L",
+      "W",
+      "W"
+    ]
   },
   "Colombia": {
-    "att": 82, "def": 81, "code": "COL", "wc_exp": 78,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.85, "heat_tolerance": 0.60,
-    "last_10": ["W","W","W","D","W","W","W","D","W","L"]
+    "att": 82,
+    "def": 81,
+    "code": "COL",
+    "wc_exp": 78,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.85,
+    "heat_tolerance": 0.6,
+    "last_10": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "W",
+      "D",
+      "W",
+      "L"
+    ]
   },
   "Ecuador": {
-    "att": 78, "def": 80, "code": "ECU", "wc_exp": 68,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.90, "heat_tolerance": 0.55,
-    "last_10": ["W","D","W","L","W","D","W","W","L","W"]
+    "att": 78,
+    "def": 80,
+    "code": "ECU",
+    "wc_exp": 68,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.9,
+    "heat_tolerance": 0.55,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "W"
+    ]
   },
   "Senegal": {
-    "att": 80, "def": 79, "code": "SEN", "wc_exp": 72,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.90,
-    "last_10": ["W","W","D","W","W","L","W","D","W","W"]
+    "att": 80,
+    "def": 79,
+    "code": "SEN",
+    "wc_exp": 72,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.9,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L"
+    ]
   },
   "Morocco": {
-    "att": 78, "def": 82, "code": "MAR", "wc_exp": 70,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.30, "heat_tolerance": 0.75,
-    "last_10": ["W","W","D","D","W","L","W","W","D","W"]
+    "att": 78,
+    "def": 82,
+    "code": "MAR",
+    "wc_exp": 70,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.3,
+    "heat_tolerance": 0.75,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "D",
+      "W",
+      "L",
+      "W",
+      "W",
+      "D",
+      "W"
+    ]
   },
-  "USA": {
-    "att": 78, "def": 77, "code": "USA", "wc_exp": 60,
-    "default_tactic": "Neutral", "home_venue_country": "USA",
-    "altitude_comfort": 0.15, "heat_tolerance": 0.50,
-    "last_10": ["L","D","W","L","W","D","L","W","D","W"]
+  "United States": {
+    "att": 78,
+    "def": 77,
+    "code": "USA",
+    "wc_exp": 60,
+    "default_tactic": "Neutral",
+    "home_venue_country": "USA",
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.5,
+    "last_10": [
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
   },
   "Mexico": {
-    "att": 76, "def": 76, "code": "MEX", "wc_exp": 70,
-    "default_tactic": "Neutral", "home_venue_country": "Mexico",
-    "altitude_comfort": 0.90, "heat_tolerance": 0.75,
-    "last_10": ["L","D","W","L","W","L","W","D","L","L"]
+    "att": 76,
+    "def": 76,
+    "code": "MEX",
+    "wc_exp": 70,
+    "default_tactic": "Neutral",
+    "home_venue_country": "Mexico",
+    "altitude_comfort": 0.9,
+    "heat_tolerance": 0.75,
+    "last_10": [
+      "D",
+      "W",
+      "L",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "L",
+      "W"
+    ]
   },
   "Canada": {
-    "att": 77, "def": 75, "code": "CAN", "wc_exp": 50,
-    "default_tactic": "Attacking", "home_venue_country": "Canada",
-    "altitude_comfort": 0.10, "heat_tolerance": 0.20,
-    "last_10": ["L","L","W","D","W","L","W","D","L","W"]
+    "att": 77,
+    "def": 75,
+    "code": "CAN",
+    "wc_exp": 50,
+    "default_tactic": "Attacking",
+    "home_venue_country": "Canada",
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.2,
+    "last_10": [
+      "L",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W"
+    ]
   },
   "Japan": {
-    "att": 79, "def": 78, "code": "JPN", "wc_exp": 65,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.55,
-    "last_10": ["W","W","L","W","W","W","L","W","W","W"]
+    "att": 79,
+    "def": 78,
+    "code": "JPN",
+    "wc_exp": 65,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.55,
+    "last_10": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "W",
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ]
   },
   "South Korea": {
-    "att": 78, "def": 76, "code": "KOR", "wc_exp": 70,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.50,
-    "last_10": ["W","D","W","W","L","W","D","W","L","W"]
+    "att": 78,
+    "def": 76,
+    "code": "KOR",
+    "wc_exp": 70,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.5,
+    "last_10": [
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "W"
+    ]
   },
   "Iran": {
-    "att": 77, "def": 75, "code": "IRN", "wc_exp": 62,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.50, "heat_tolerance": 0.70,
-    "last_10": ["W","W","D","W","W","W","D","L","W","W"]
+    "att": 77,
+    "def": 75,
+    "code": "IRN",
+    "wc_exp": 62,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.5,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W"
+    ]
   },
   "Australia": {
-    "att": 76, "def": 76, "code": "AUS", "wc_exp": 65,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.70,
-    "last_10": ["W","W","L","D","W","D","W","W","L","D"]
-  },
-  "Nigeria": {
-    "att": 79, "def": 75, "code": "NGA", "wc_exp": 70,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.20, "heat_tolerance": 0.85,
-    "last_10": ["L","W","W","D","L","W","W","D","W","L"]
+    "att": 76,
+    "def": 76,
+    "code": "AUS",
+    "wc_exp": 65,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "D",
+      "W"
+    ]
   },
   "Egypt": {
-    "att": 78, "def": 76, "code": "EGY", "wc_exp": 65,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.85,
-    "last_10": ["W","W","D","L","W","W","D","L","W","W"]
+    "att": 78,
+    "def": 76,
+    "code": "EGY",
+    "wc_exp": 65,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.85,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W"
+    ]
   },
   "Ivory Coast": {
-    "att": 78, "def": 76, "code": "CIV", "wc_exp": 66,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.85,
-    "last_10": ["W","W","W","D","L","W","W","D","W","W"]
-  },
-  "Cameroon": {
-    "att": 76, "def": 75, "code": "CMR", "wc_exp": 72,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.20, "heat_tolerance": 0.80,
-    "last_10": ["L","W","D","W","L","D","W","W","L","D"]
+    "att": 78,
+    "def": 76,
+    "code": "CIV",
+    "wc_exp": 66,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.85,
+    "last_10": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
   },
   "Ghana": {
-    "att": 75, "def": 74, "code": "GHA", "wc_exp": 68,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.80,
-    "last_10": ["L","W","L","W","D","L","W","D","W","L"]
-  },
-  "Mali": {
-    "att": 75, "def": 75, "code": "MLI", "wc_exp": 30,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.85,
-    "last_10": ["W","W","D","L","W","D","W","L","W","D"]
+    "att": 75,
+    "def": 74,
+    "code": "GHA",
+    "wc_exp": 68,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.8,
+    "last_10": [
+      "L",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L"
+    ]
   },
   "Switzerland": {
-    "att": 78, "def": 80, "code": "SUI", "wc_exp": 76,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.45, "heat_tolerance": 0.25,
-    "last_10": ["W","D","W","D","W","L","W","D","W","L"]
-  },
-  "Denmark": {
-    "att": 79, "def": 79, "code": "DEN", "wc_exp": 74,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.05, "heat_tolerance": 0.15,
-    "last_10": ["W","W","D","W","L","D","W","L","W","W"]
+    "att": 78,
+    "def": 80,
+    "code": "SUI",
+    "wc_exp": 76,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.45,
+    "heat_tolerance": 0.25,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L"
+    ]
   },
   "Austria": {
-    "att": 79, "def": 77, "code": "AUT", "wc_exp": 62,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.40, "heat_tolerance": 0.25,
-    "last_10": ["W","W","W","L","W","W","L","W","D","W"]
-  },
-  "Ukraine": {
-    "att": 78, "def": 77, "code": "UKR", "wc_exp": 60,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.25,
-    "last_10": ["W","D","W","L","W","D","W","W","L","W"]
-  },
-  "Poland": {
-    "att": 77, "def": 76, "code": "POL", "wc_exp": 68,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.20,
-    "last_10": ["L","W","D","W","L","D","W","L","W","L"]
+    "att": 79,
+    "def": 77,
+    "code": "AUT",
+    "wc_exp": 62,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.4,
+    "heat_tolerance": 0.25,
+    "last_10": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "W",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W"
+    ]
   },
   "Turkey": {
-    "att": 78, "def": 75, "code": "TUR", "wc_exp": 58,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.30, "heat_tolerance": 0.55,
-    "last_10": ["W","L","W","W","L","D","W","L","W","W"]
-  },
-  "Slovakia": {
-    "att": 76, "def": 76, "code": "SVK", "wc_exp": 55,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.20, "heat_tolerance": 0.20,
-    "last_10": ["W","D","L","W","W","D","L","W","W","D"]
-  },
-  "Serbia": {
-    "att": 78, "def": 76, "code": "SRB", "wc_exp": 60,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.35,
-    "last_10": ["L","W","W","D","L","W","D","L","W","W"]
-  },
-  "Romania": {
-    "att": 75, "def": 76, "code": "ROU", "wc_exp": 62,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.30,
-    "last_10": ["D","W","L","W","D","W","L","D","W","W"]
+    "att": 78,
+    "def": 75,
+    "code": "TUR",
+    "wc_exp": 58,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.3,
+    "heat_tolerance": 0.55,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "L",
+      "D",
+      "W",
+      "L",
+      "W",
+      "W"
+    ]
   },
   "New Zealand": {
-    "att": 70, "def": 70, "code": "NZL", "wc_exp": 40,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.05, "heat_tolerance": 0.30,
-    "last_10": ["W","W","D","L","W","D","L","W","D","L"]
-  },
-  "Costa Rica": {
-    "att": 73, "def": 75, "code": "CRC", "wc_exp": 65,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.50, "heat_tolerance": 0.70,
-    "last_10": ["L","W","D","L","W","D","W","L","W","L"]
+    "att": 70,
+    "def": 70,
+    "code": "NZL",
+    "wc_exp": 40,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.05,
+    "heat_tolerance": 0.3,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "L"
+    ]
   },
   "Panama": {
-    "att": 74, "def": 73, "code": "PAN", "wc_exp": 45,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.80,
-    "last_10": ["W","L","W","D","L","W","W","L","W","L"]
-  },
-  "Jamaica": {
-    "att": 74, "def": 72, "code": "JAM", "wc_exp": 40,
-    "default_tactic": "Attacking", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.80,
-    "last_10": ["L","W","W","D","L","W","D","W","L","W"]
+    "att": 74,
+    "def": 73,
+    "code": "PAN",
+    "wc_exp": 45,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.8,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "L",
+      "W",
+      "L"
+    ]
   },
   "Tunisia": {
-    "att": 74, "def": 76, "code": "TUN", "wc_exp": 60,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.10, "heat_tolerance": 0.80,
-    "last_10": ["W","D","L","W","D","D","W","L","W","D"]
+    "att": 74,
+    "def": 76,
+    "code": "TUN",
+    "wc_exp": 60,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.8,
+    "last_10": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D"
+    ]
   },
   "Saudi Arabia": {
-    "att": 74, "def": 73, "code": "KSA", "wc_exp": 60,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.90,
-    "last_10": ["W","L","W","D","L","W","D","W","L","W"]
+    "att": 74,
+    "def": 73,
+    "code": "KSA",
+    "wc_exp": 60,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.9,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W"
+    ]
   },
   "Qatar": {
-    "att": 74, "def": 71, "code": "QAT", "wc_exp": 50,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.05, "heat_tolerance": 0.90,
-    "last_10": ["W","D","W","W","D","L","W","D","W","L"]
+    "att": 74,
+    "def": 71,
+    "code": "QAT",
+    "wc_exp": 50,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.05,
+    "heat_tolerance": 0.9,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L"
+    ]
   },
   "Uzbekistan": {
-    "att": 73, "def": 73, "code": "UZB", "wc_exp": 35,
-    "default_tactic": "Gegenpressing", "home_venue_country": null,
-    "altitude_comfort": 0.30, "heat_tolerance": 0.65,
-    "last_10": ["W","W","W","D","W","W","D","W","W","W"]
+    "att": 73,
+    "def": 73,
+    "code": "UZB",
+    "wc_exp": 35,
+    "default_tactic": "Gegenpressing",
+    "home_venue_country": null,
+    "altitude_comfort": 0.3,
+    "heat_tolerance": 0.65,
+    "last_10": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "D",
+      "W",
+      "W",
+      "W"
+    ]
   },
   "Iraq": {
-    "att": 72, "def": 71, "code": "IRQ", "wc_exp": 35,
-    "default_tactic": "Neutral", "home_venue_country": null,
-    "altitude_comfort": 0.15, "heat_tolerance": 0.85,
-    "last_10": ["W","W","L","W","W","D","W","L","W","D"]
+    "att": 72,
+    "def": 71,
+    "code": "IRQ",
+    "wc_exp": 35,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.15,
+    "heat_tolerance": 0.85,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "L"
+    ]
   },
   "Paraguay": {
-    "att": 74, "def": 77, "code": "PAR", "wc_exp": 68,
-    "default_tactic": "Defensive", "home_venue_country": null,
-    "altitude_comfort": 0.35, "heat_tolerance": 0.60,
-    "last_10": ["D","L","W","D","L","W","D","L","W","D"]
+    "att": 74,
+    "def": 77,
+    "code": "PAR",
+    "wc_exp": 68,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.35,
+    "heat_tolerance": 0.6,
+    "last_10": [
+      "D",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D"
+    ]
+  },
+  "Cape Verde": {
+    "att": 74,
+    "def": 73,
+    "code": "CPV",
+    "wc_exp": 15,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.6,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "L",
+      "W",
+      "D"
+    ]
+  },
+  "Jordan": {
+    "att": 73,
+    "def": 71,
+    "code": "JOR",
+    "wc_exp": 10,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.2,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "D",
+      "L",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  "Scotland": {
+    "att": 76,
+    "def": 77,
+    "code": "SCO",
+    "wc_exp": 45,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.1,
+    "last_10": [
+      "D",
+      "L",
+      "D",
+      "W",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D"
+    ]
+  },
+  "Norway": {
+    "att": 82,
+    "def": 78,
+    "code": "NOR",
+    "wc_exp": 45,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.1,
+    "last_10": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "W",
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  "Sweden": {
+    "att": 80,
+    "def": 81,
+    "code": "SWE",
+    "wc_exp": 75,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.15,
+    "last_10": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  "South Africa": {
+    "att": 74,
+    "def": 73,
+    "code": "RSA",
+    "wc_exp": 35,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.3,
+    "heat_tolerance": 0.6,
+    "last_10": [
+      "W",
+      "D",
+      "D",
+      "W",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  "Cura\u00e7ao": {
+    "att": 72,
+    "def": 70,
+    "code": "CUW",
+    "wc_exp": 5,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ]
+  },
+  "Czechia": {
+    "att": 76,
+    "def": 76,
+    "code": "CZE",
+    "wc_exp": 40,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.15,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  "Haiti": {
+    "att": 71,
+    "def": 70,
+    "code": "HAI",
+    "wc_exp": 10,
+    "default_tactic": "Defensive",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.8,
+    "last_10": [
+      "L",
+      "D",
+      "W",
+      "W",
+      "L",
+      "D",
+      "L",
+      "W",
+      "D",
+      "L"
+    ]
+  },
+  "DR Congo": {
+    "att": 75,
+    "def": 74,
+    "code": "COD",
+    "wc_exp": 25,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.2,
+    "heat_tolerance": 0.7,
+    "last_10": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "W",
+      "D",
+      "L",
+      "W",
+      "D",
+      "D"
+    ]
+  },
+  "Algeria": {
+    "att": 78,
+    "def": 77,
+    "code": "ALG",
+    "wc_exp": 60,
+    "default_tactic": "Attacking",
+    "home_venue_country": null,
+    "altitude_comfort": 0.2,
+    "heat_tolerance": 0.6,
+    "last_10": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  "Bosnia and Herzegovina": {
+    "att": 75,
+    "def": 74,
+    "code": "BIH",
+    "wc_exp": 30,
+    "default_tactic": "Neutral",
+    "home_venue_country": null,
+    "altitude_comfort": 0.1,
+    "heat_tolerance": 0.2,
+    "last_10": [
+      "W",
+      "L",
+      "L",
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "W",
+      "D"
+    ]
   }
 }

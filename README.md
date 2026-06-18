@@ -1,4 +1,4 @@
-# World Cup 2026 Game Predictor v3.0
+# World Cup 2026 Game Predictor v3.1
 
 An advanced command-line (CLI) simulator and predictor for the World Cup 2026. Built in Python, it uses a Double Poisson distribution model coupled with a 10,000-run Monte Carlo simulation to forecast realistic outcomes, goals, draws, extra-time matches, and penalty shootouts.
 
@@ -24,9 +24,11 @@ An advanced command-line (CLI) simulator and predictor for the World Cup 2026. B
 * **Fuzzy Team Search**: Relaxed string matching + country code support (e.g., "ENG" matches "England").
 
 ### Tournament Modes
+* **Champion Predictor (NEW)**: Run the rest of the tournament 10,000 times to predict the winner probability for every team!
+* **Live Tournament Resume (NEW)**: Load real current standings (points, GD) and simulate the remaining matches.
 * **Single Match**: Simulate any head-to-head matchup with full pre-match intelligence.
 * **8-Team Knockout Bracket**: Quarter-Finals through Grand Final with odds per round.
-* **Full 48-Team Tournament**: 12 groups of 4 (serpentine seeding) -> Round of 32 -> Grand Final.
+* **Full 48-Team Tournament**: 12 groups of 4 (with real life groups) -> Round of 32 -> Grand Final.
 
 ---
 
@@ -122,6 +124,12 @@ Monte Carlo estimates include 95% CI: $\text{margin} = 1.96 \times \sqrt{\frac{p
 ---
 
 ## Changelog
+
+### v3.1 (Live Update)
+- Added real `groups.json` and `tournament_state.json` to track real 2026 group stage results.
+- Added **Champion Predictor** mode (calculates winner probability for all teams via Monte Carlo).
+- Added **Resume Tournament** mode (starts from current real-world points/GD instead of 0).
+- Fixed the team database to correctly match the 48 qualified nations (added 12 missing nations).
 
 ### v3.0
 - Full 48-team Group Stage Simulator (12 groups, serpentine seeding)

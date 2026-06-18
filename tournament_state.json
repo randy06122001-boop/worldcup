@@ -1,0 +1,38 @@
+{
+  "group_stage_complete": false,
+  "standings": {
+    "A": {
+      "Mexico":      {"pts": 3, "gf": 2, "ga": 0, "played": 1, "w": 1, "d": 0, "l": 0},
+      "South Korea": {"pts": 3, "gf": 1, "ga": 0, "played": 1, "w": 1, "d": 0, "l": 0},
+      "Czechia":     {"pts": 0, "gf": 0, "ga": 1, "played": 1, "w": 0, "d": 0, "l": 1},
+      "South Africa":{"pts": 0, "gf": 0, "ga": 2, "played": 1, "w": 0, "d": 0, "l": 1}
+    },
+    "D": {
+      "United States":{"pts": 3, "gf": 3, "ga": 0, "played": 1, "w": 1, "d": 0, "l": 0},
+      "Australia":    {"pts": 3, "gf": 2, "ga": 0, "played": 1, "w": 1, "d": 0, "l": 0},
+      "Turkey":       {"pts": 0, "gf": 0, "ga": 2, "played": 1, "w": 0, "d": 0, "l": 1},
+      "Paraguay":     {"pts": 0, "gf": 0, "ga": 3, "played": 1, "w": 0, "d": 0, "l": 1}
+    },
+    "I": {
+      "Norway":       {"pts": 3, "gf": 4, "ga": 1, "played": 1, "w": 1, "d": 0, "l": 0},
+      "France":       {"pts": 3, "gf": 3, "ga": 1, "played": 1, "w": 1, "d": 0, "l": 0},
+      "Senegal":      {"pts": 0, "gf": 1, "ga": 3, "played": 1, "w": 0, "d": 0, "l": 1},
+      "Iraq":         {"pts": 0, "gf": 1, "ga": 4, "played": 1, "w": 0, "d": 0, "l": 1}
+    },
+    "K": {
+      "Portugal":     {"pts": 1, "gf": 1, "ga": 1, "played": 1, "w": 0, "d": 1, "l": 0},
+      "DR Congo":     {"pts": 1, "gf": 1, "ga": 1, "played": 1, "w": 0, "d": 1, "l": 0},
+      "Uzbekistan":   {"pts": 0, "gf": 0, "ga": 0, "played": 0, "w": 0, "d": 0, "l": 0},
+      "Colombia":     {"pts": 0, "gf": 0, "ga": 0, "played": 0, "w": 0, "d": 0, "l": 0}
+    }
+  },
+  "played_matches": [
+    {"home": "Mexico", "away": "South Africa", "score_home": 2, "score_away": 0},
+    {"home": "South Korea", "away": "Czechia", "score_home": 1, "score_away": 0},
+    {"home": "United States", "away": "Paraguay", "score_home": 3, "score_away": 0},
+    {"home": "Australia", "away": "Turkey", "score_home": 2, "score_away": 0},
+    {"home": "Norway", "away": "Iraq", "score_home": 4, "score_away": 1},
+    {"home": "France", "away": "Senegal", "score_home": 3, "score_away": 1},
+    {"home": "Portugal", "away": "DR Congo", "score_home": 1, "score_away": 1}
+  ]
+}
